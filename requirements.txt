@@ -1,0 +1,17 @@
+FastApi
+sqlalchemy
+psycopg2-binary
+alembic
+python-dotenv
+pytest
+pytest-asyncio
+httpx
+pytest-cov
+pytest-mock
+pydantic
+uvicorn
+huggingface-hub
+transformers
+torch
+
+

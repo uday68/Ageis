@@ -1,0 +1,84 @@
+/* Infrastructure Component Styles */
+
+.node-glow {
+  box-shadow: 0 0 15px rgba(166, 200, 255, 0.15);
+  transition: all 0.3s ease;
+}
+
+.node-glow:hover {
+  box-shadow: 0 0 25px rgba(166, 200, 255, 0.3);
+  transform: translateY(-2px);
+  border-color: #a6c8ff;
+}
+
+.node-glow.selected {
+  box-shadow: 0 0 30px rgba(166, 200, 255, 0.4);
+  border-color: #a6c8ff;
+  background: rgba(166, 200, 255, 0.1);
+}
+
+/* SVG Pulse Animations */
+.pulse-red {
+  animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+  0% {
+    stroke: rgba(255, 84, 70, 0.4);
+  }
+  50% {
+    stroke: rgba(255, 84, 70, 0.8);
+  }
+  100% {
+    stroke: rgba(255, 84, 70, 0.4);
+  }
+}
+
+.pulse-yellow {
+  animation: pulse-yellow 2s infinite;
+}
+
+@keyframes pulse-yellow {
+  0% {
+    stroke: rgba(255, 180, 171, 0.4);
+  }
+  50% {
+    stroke: rgba(255, 180, 171, 0.8);
+  }
+  100% {
+    stroke: rgba(255, 180, 171, 0.4);
+  }
+}
+
+.pulse-green {
+  animation: pulse-green 3s infinite;
+}
+
+@keyframes pulse-green {
+  0% {
+    stroke: rgba(78, 222, 163, 0.3);
+  }
+  50% {
+    stroke: rgba(78, 222, 163, 0.6);
+  }
+  100% {
+    stroke: rgba(78, 222, 163, 0.3);
+  }
+}
+
+/* SVG Dash Animations */
+.dash-anim {
+  stroke-dasharray: 10;
+  animation: dash 20s linear infinite;
+}
+
+.dash-anim-fast {
+  stroke-dasharray: 10;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}

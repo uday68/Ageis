@@ -1,0 +1,164 @@
+/* Tailwind-like utility classes - Theme Colors */
+
+/* Text Colors */
+.text-on-surface {
+  color: #e5e1e4;
+}
+
+.text-on-surface-variant {
+  color: #c0c7d5;
+}
+
+.text-primary {
+  color: #a6c8ff;
+}
+
+.text-secondary {
+  color: #4edea3;
+}
+
+.text-tertiary {
+  color: #ffb4aa;
+}
+
+.text-tertiary-container {
+  color: #ff5446;
+}
+
+.text-error {
+  color: #ffb4ab;
+}
+
+/* Background Colors */
+.bg-background {
+  background-color: #131315;
+}
+
+.bg-surface {
+  background-color: #131315;
+}
+
+.bg-surface-container {
+  background-color: #201f22;
+}
+
+.bg-surface-container-high {
+  background-color: #2a2a2c;
+}
+
+.bg-surface-container-highest {
+  background-color: #353437;
+}
+
+.bg-surface-container-low {
+  background-color: #1c1b1d;
+}
+
+.bg-surface-container-low\/50 {
+  background-color: rgba(28, 27, 29, 0.5);
+}
+
+.bg-surface-container-lowest {
+  background-color: #0e0e10;
+}
+
+.bg-surface-bright {
+  background-color: #39393b;
+}
+
+.bg-surface-variant {
+  background-color: #353437;
+}
+
+.bg-secondary {
+  background-color: #4edea3;
+}
+
+.bg-tertiary {
+  background-color: #ffb4aa;
+}
+
+.bg-tertiary-container {
+  background-color: #ff5446;
+}
+
+.bg-error {
+  background-color: #ffb4ab;
+}
+
+/* Semi-transparent backgrounds */
+.bg-primary\/5 {
+  background-color: rgba(166, 200, 255, 0.05);
+}
+
+.bg-primary\/10 {
+  background-color: rgba(166, 200, 255, 0.1);
+}
+
+.bg-primary\/20 {
+  background-color: rgba(166, 200, 255, 0.2);
+}
+
+/* Border Colors */
+.border-outline-variant {
+  border-color: #404753;
+}
+
+.border-primary\/20 {
+  border-color: rgba(166, 200, 255, 0.2);
+}
+
+.border-primary\/30 {
+  border-color: rgba(166, 200, 255, 0.3);
+}
+
+.border-error\/30 {
+  border-color: rgba(255, 180, 171, 0.3);
+}
+
+.border-tertiary\/30 {
+  border-color: rgba(255, 180, 170, 0.3);
+}
+
+/* Font Utilities */
+.font-body-lg {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-body-sm {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.font-label-caps {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+
+.font-headline-md {
+  font-family: 'Geist', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.font-code-md {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* Shared Components */
+.glass-panel {
+  background: rgba(24, 24, 27, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(63, 63, 70, 0.5);
+}
