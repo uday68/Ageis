@@ -16,6 +16,10 @@
 
 </div>
 
+<div align="center">
+        <img src="Aegis_frontend/Aegis/src/assets/3debc03a-1426-47ff-be26-debc7b08e1e6.jpeg" alt="Aegis screenshot" style="max-width:80%;height:auto;margin-top:16px;" />
+</div>
+
 ---
 
 # Overview
