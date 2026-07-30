@@ -109,7 +109,7 @@ const InfrastructureDashboard: React.FC = () => {
           </svg>
 
           {/* Nodes */}
-          <div className="relative w-full h-full max-w-6xl">
+          <div className="relative w-full h-full ">
             {/* Frontend */}
             <div
               className={`absolute left-[100px] top-[260px] glass-panel node-glow rounded-xl p-4 w-48 cursor-pointer flex items-center gap-3 ${

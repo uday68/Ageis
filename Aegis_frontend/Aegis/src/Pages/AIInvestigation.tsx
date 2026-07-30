@@ -1,6 +1,6 @@
 const AutonomousAgentFleet: React.FC = () => {
   return (
-    <main className="flex-1 overflow-y-auto p-margin-mobile md:p-margin-desktop bg-surface">
+    <main className="flex-1 overflow-y-auto p-margin-mobile md:p-margin-desktop bg-surface px-32 ">
       <div className="max-w-max-width mx-auto">
         {/* Page Header & Global Controls */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6">

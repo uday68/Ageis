@@ -179,8 +179,8 @@ const InfrastructureDashboard: React.FC = () => {
         }
       `}</style>
 
-      <main className=" min-h-screen">
-        <div className="max-w-[1600px] mx-auto p-margin-desktop flex flex-col gap-gutter">
+      <main className="   flex-1 flex flex-col relative bg-background overflow-y-auto ">
+        <div className=" mx-auto  flex flex-col ">
           {/* Service Health Overview Stats */}
           <section className="grid grid-cols-1 md:grid-cols-4 gap-4">
             <div className="glass-panel p-4 rounded-xl flex flex-col gap-2 relative overflow-hidden">
@@ -348,7 +348,7 @@ const InfrastructureDashboard: React.FC = () => {
             </div>
 
             {/* Active Dependencies / Side Panel */}
-            <aside className="w-80 h-full glass-panel rounded-xl flex flex-col overflow-hidden hidden xl:flex">
+            <aside className="w-80 h-full glass-panel rounded-xl flex flex-col overflow-hidden  xl:flex">
               <div className="p-4 border-b border-outline-variant flex items-center justify-between bg-surface-container-low">
                 <h4 className="font-headline-md text-headline-md font-bold">Selected Service</h4>
                 <button className="text-on-surface-variant hover:text-on-surface">
@@ -388,11 +388,11 @@ const InfrastructureDashboard: React.FC = () => {
                   {/* Flow Animation */}
                   <div className="flex justify-center py-2">
                     <div className="flex flex-col items-center gap-1">
-                      <div className="w-0.5 h-8 bg-gradient-to-b from-primary to-secondary opacity-50 relative overflow-hidden">
+                      <div className="w-0.5 h-8 bg-linear-to-b from-primary to-secondary opacity-50 relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full h-2 bg-white/40 animate-[bounce_2s_infinite]"></div>
                       </div>
                       <span className="material-symbols-outlined text-primary-container">hub</span>
-                      <div className="w-0.5 h-8 bg-gradient-to-b from-secondary to-tertiary opacity-50 relative overflow-hidden">
+                      <div className="w-0.5 h-8 bg-linear-to-b from-secondary to-tertiary opacity-50 relative overflow-hidden">
                         <div className="absolute top-0 left-0 w-full h-2 bg-white/40 animate-[bounce_2s_infinite]"></div>
                       </div>
                     </div>

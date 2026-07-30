@@ -1,11 +1,11 @@
 const LiveIncidents: React.FC = () => {
   return (
-    <main className="flex-1 flex flex-col min-h-screen w-full relative bg-background">
+    <main className="flex-1 flex flex-col min-h-screen w-full relative bg-background  overflow-y-auto ml-[-18px]">
       {/* Page Content */}
-      <div className="flex-1 p-margin-desktop overflow-y-auto">
-        <div className="max-w-[max-width] mx-auto space-y-gutter">
+      <div className="flex-1  overflow-y-auto ">
+        <div className="  mx-5 space-y-gutter">
           {/* Incident Header */}
-          <div className="glass-panel rounded-xl p-gutter flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+          <div className="glass-panel rounded-xl p-gutter flex flex-col md:flex-row gap-7 justify-between items-start md:items-center ">
             <div>
               <div className="flex items-center gap-3 mb-2">
                 <span className="bg-error-container text-on-error-container px-2 py-0.5 rounded font-label-caps text-label-caps flex items-center gap-1">
@@ -43,11 +43,11 @@ const LiveIncidents: React.FC = () => {
           </div>
 
           {/* Bento Grid Layout */}
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-gutter">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-5 mt-6">
             {/* Left Column: AI Analysis & Metrics */}
-            <div className="xl:col-span-2 space-y-gutter">
+            <div className="xl:col-span-2 space-y-gutter ">
               {/* AI Root Cause Summary */}
-              <div className="glass-panel ai-glow rounded-xl p-gutter relative overflow-hidden">
+              <div className="glass-panel ai-glow rounded-xl p-gutter relative overflow-hidden p-3">
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-container via-primary to-secondary-container opacity-50"></div>
                 <div className="flex items-center gap-2 mb-4">
                   <span className="material-symbols-outlined text-primary-fixed-dim animate-pulse">psychology</span>
@@ -79,7 +79,7 @@ const LiveIncidents: React.FC = () => {
               </div>
 
               {/* Live Metrics */}
-              <div className="glass-panel rounded-xl p-gutter">
+              <div className="glass-panel rounded-xl mt-6">
                 <div className="flex items-center justify-between mb-4">
                   <h2 className="font-headline-md text-headline-md text-on-surface flex items-center gap-2">
                     <span className="material-symbols-outlined">monitoring</span>
@@ -91,7 +91,7 @@ const LiveIncidents: React.FC = () => {
                   </span>
                 </div>
                 {/* Chart Placeholder */}
-                <div className="p-8 h-64 bg-surface-container-lowest rounded border border-outline-variant/30 flex items-end relative overflow-hidden  gap-1">
+                <div className="p-12 h-64 bg-surface-container-lowest rounded border border-outline-variant/30 flex items-end relative overflow-hidden ">
                   <div className="absolute inset-0 flex flex-col justify-between pointer-events-none p-2 opacity-10">
                     <div className="w-full h-px bg-on-surface"></div>
                     <div className="w-full h-px bg-on-surface"></div>
@@ -116,7 +116,7 @@ const LiveIncidents: React.FC = () => {
             </div>
 
             {/* Right Column: Timeline */}
-            <div className="xl:col-span-1">
+            <div className="xl:col-span-1 mt-3 mx-4 p-3">
               <div className="glass-panel rounded-xl p-gutter h-full">
                 <h2 className="font-headline-md text-headline-md text-on-surface mb-6 flex items-center gap-2">
                   <span className="material-symbols-outlined">schedule</span>
