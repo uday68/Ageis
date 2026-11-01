@@ -3,3 +3,16 @@ Ageis_frontend/Aegis/.DS_Store
 Ageis_Backend/Aegis/.DS_Store
 Ageis_Backend/Aegis/__pycache__
 Ageis_Backend/Aegis/.venv
+# Virtual environments
+.venv/
+*/.venv/
+venv/
+env/
+
+# Bytecode
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
